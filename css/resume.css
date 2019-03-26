@@ -111,24 +111,24 @@
         height: 14px;
     }
 
-    #android-progress {
+    #web-progress {
         width: 60%;
     }
 
     #c-cpp-progress {
-        width: 70%;
+        width: 55%;
     }
 
     #python-progress {
-        width: 80%;
+        width: 90%;
     }
 
     #communication-progress {
-        width: 95%;
+        width: 85%;
     }
 
     #teamwork-progress {
-        width: 80%;
+        width: 85%;
     }
 
     /* mobile footer */
@@ -273,23 +273,23 @@
         height: 14px;
     }
 
-    #android-progress {
+    #web-progress {
         width: 60%;
     }
 
     #c-cpp-progress {
-        width: 70%;
+        width: 55%;
     }
 
     #python-progress {
-        width: 80%;
+        width: 90%;
     }
 
     #communication-progress {
-        width: 95%;
+        width: 85%;
     }
 
     #teamwork-progress {
-        width: 80%;
+        width: 85%;
     }
 }
