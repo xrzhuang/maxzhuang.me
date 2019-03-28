@@ -292,4 +292,8 @@
     #teamwork-progress {
         width: 85%;
     }
+
+    #free-money-link{
+        text-decoration: none;
+    }
 }
