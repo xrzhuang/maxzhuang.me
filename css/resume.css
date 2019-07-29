@@ -1,299 +1,311 @@
 /* for mobile phones */
 @media only screen and (max-width: 600px) {
-    body, html {
-        background-color: #DCDCDC;
-        margin: 0;
-        width: 100%;
-    }
+  body,
+  html {
+    background-color: #dcdcdc;
+    margin: 0;
+    width: 100%;
+  }
 
-    #mobile-profile-image:hover,
-    #mobile-profile-image:focus,
-    #mobile-profile-image:active {
-        opacity: 0.6;
-    }
+  #mobile-profile-image:hover,
+  #mobile-profile-image:focus,
+  #mobile-profile-image:active {
+    opacity: 0.6;
+  }
 
-    #resume-content {
-        font-family: sans-serif;
-    }
+  #resume-content {
+    font-family: sans-serif;
+  }
 
-    #resume-content-experience,
-    #resume-content-education,
-    #resume-content-skills {
-        background-color: #F8F8F8;
-        box-shadow: 0 5px 3px #888;
-        padding: 40px 30px 5px 30px;
-    }
-    
-    #resume-content-experience,
-    #resume-content-education {
-        margin-bottom: 60px;
-    }
-    
-    #resume-content-skills {
-        margin-bottom: -60px;
-    }
+  #resume-content-experience,
+  #resume-content-education,
+  #resume-content-skills {
+    background-color: #f8f8f8;
+    box-shadow: 0 5px 3px #888;
+    padding: 40px 30px 5px 30px;
+  }
 
-    .resume-category {
-        left: 36px;
-        position: relative;
-        top: -48px;
-        width: 50%;
-    }
+  #resume-content-experience,
+  #resume-content-education {
+    margin-bottom: 60px;
+  }
 
-    ol, 
-    #resume-content-skills ul,
-    #resume-content-interests ul {
-        position: relative;
-        top: -45px;
-    }
+  #resume-content-skills {
+    margin-bottom: -60px;
+  }
 
-    li {
-        list-style: none;
-    }
+  .resume-category {
+    left: 36px;
+    position: relative;
+    top: -48px;
+    width: 50%;
+  }
 
-    #resume-content-experience ul li {
-        font-weight: lighter;
-        list-style-type: circle;
-        margin-bottom: 8px;
-    }
+  ol,
+  #resume-content-skills ul,
+  #resume-content-interests ul {
+    position: relative;
+    top: -45px;
+  }
 
-    #icon-experience,
-    #icon-education,
-    #icon-skills {
-        margin-left: 0;
-    }
+  li {
+    list-style: none;
+  }
 
-    #resume-content h2 {
-        color: #1f3a85;
-        margin-left: 2px;
-    }
+  #resume-content-experience ul li {
+    font-weight: lighter;
+    list-style-type: circle;
+    margin-bottom: 8px;
+  }
 
-    h3 {
-        color: #1f3a85;
-        font-weight: 600;
-    }
+  #icon-experience,
+  #icon-education,
+  #icon-skills {
+    margin-left: 0;
+  }
 
-    .title-line-two {
-        font-weight: lighter;
-        margin-top: -10px;
-    }
+  #resume-content h2 {
+    color: #1f3a85;
+    margin-left: 2px;
+  }
 
-    .title-line-two-education {
-        color: black;
-    }
+  h3 {
+    color: #1f3a85;
+    font-weight: 600;
+  }
 
-    #resume-content-skills {
-        font-weight: lighter;
-    }
+  .title-line-two {
+    font-weight: lighter;
+    margin-top: -10px;
+  }
 
-    #resume-content-interests {
-        display: none;
-    }
+  .title-line-two-education {
+    color: black;
+  }
 
-    hr {
-        margin-top: 28px;
-    }
+  #resume-content-skills {
+    font-weight: lighter;
+  }
 
-    .job-title {
-        font-size: 1.35em;
-    }
+  #resume-content-interests {
+    display: none;
+  }
 
-    .skill-progress {
-        background-color: lightgrey;
-        border-radius: 20px;
-        height: 14px;
-        margin: 6px 0;
-        width: 230px;
-    }
-    .my-progress {
-        background-color: #1f3a85;
-        border-radius: 20px;
-        height: 14px;
-    }
+  hr {
+    margin-top: 28px;
+  }
 
-    #web-progress {
-        width: 60%;
-    }
+  .job-title {
+    font-size: 1.35em;
+  }
 
-    #c-cpp-progress {
-        width: 55%;
-    }
+  .skill-progress {
+    background-color: lightgrey;
+    border-radius: 20px;
+    height: 14px;
+    margin: 6px 0;
+    width: 230px;
+  }
+  .my-progress {
+    background-color: #1f3a85;
+    border-radius: 20px;
+    height: 14px;
+  }
 
-    #python-progress {
-        width: 90%;
-    }
+  #web-progress {
+    width: 60%;
+  }
 
-    #communication-progress {
-        width: 85%;
-    }
+  #c-cpp-progress {
+    width: 55%;
+  }
 
-    #teamwork-progress {
-        width: 85%;
-    }
+  #python-progress {
+    width: 90%;
+  }
 
-    /* mobile footer */
-    #mobile-footer {
-        color: #1f3a85;
-        margin-top: -60px;
-    }
+  #communication-progress {
+    width: 85%;
+  }
 
-    #footer-find-me {
-        border-bottom: 1px solid #1f3a85;
-    }
+  #teamwork-progress {
+    width: 85%;
+  }
+
+  /* mobile footer */
+  #mobile-footer {
+    color: #1f3a85;
+    margin-top: -60px;
+  }
+
+  #footer-find-me {
+    border-bottom: 1px solid #1f3a85;
+  }
+
+  .company {
+    color: white;
+    text-decoration: none;
+  }
 }
-
 
 /* for desktops */
 @media only screen and (min-width: 600px) {
-    #mobile-footer,
-    #mobile-profile-image {
-        display: none;
-    }
-    
-    body, html {
-        background-color: #DCDCDC;
-        margin: 0;
-        min-width: 1050px;
-    }
+  #mobile-footer,
+  #mobile-profile-image {
+    display: none;
+  }
 
-    #sidebar-profile-image:hover {
-        opacity: 0.8;
-    }
+  body,
+  html {
+    background-color: #dcdcdc;
+    margin: 0;
+    min-width: 1050px;
+  }
 
-    #resume-content {
-        float: left;
-        font-family: sans-serif;
-        margin: 5%;
-        width: 65%;
-    }
+  #sidebar-profile-image:hover {
+    opacity: 0.8;
+  }
 
-    body, html {
-        background-color: #DCDCDC;
-        margin: 0;
-    }
+  #resume-content {
+    float: left;
+    font-family: sans-serif;
+    margin: 5%;
+    width: 65%;
+  }
 
-    #resume-content-experience,
-    #resume-content-education,
-    #resume-content-misc {
-        background-color: #F8F8F8;
-        box-shadow: 0 5px 3px #888;
-        margin-bottom: 60px;
-        min-width: 800px;
-        padding: 30px 30px 5px 30px;
-    }
+  body,
+  html {
+    background-color: #dcdcdc;
+    margin: 0;
+  }
 
-    .resume-category {
-        left: 36px;
-        position: relative;
-        top: -48px;
-    }
+  #resume-content-experience,
+  #resume-content-education,
+  #resume-content-misc {
+    background-color: #f8f8f8;
+    box-shadow: 0 5px 3px #888;
+    margin-bottom: 60px;
+    min-width: 800px;
+    padding: 30px 30px 5px 30px;
+  }
 
-    ol, 
-    #resume-content-skills ul,
-    #resume-content-interests ul {
-        position: relative;
-        top: -45px;
-    }
+  .resume-category {
+    left: 36px;
+    position: relative;
+    top: -48px;
+  }
 
-    li {
-        list-style: none;
-    }
+  ol,
+  #resume-content-skills ul,
+  #resume-content-interests ul {
+    position: relative;
+    top: -45px;
+  }
 
-    #resume-content-experience ul li {
-        font-weight: lighter;
-        list-style-type: circle;
-        margin-bottom: 8px;
-    }
+  li {
+    list-style: none;
+  }
 
-    #icon-experience,
-    #icon-education,
-    #icon-skills,
-    #icon-interests {
-        margin-left: 0;
-    }
+  #resume-content-experience ul li {
+    font-weight: lighter;
+    list-style-type: circle;
+    margin-bottom: 8px;
+  }
 
-    #resume-content h2 {
-        color: #1f3a85;
-        margin-left: 2px;
-    }
+  #icon-experience,
+  #icon-education,
+  #icon-skills,
+  #icon-interests {
+    margin-left: 0;
+  }
 
-    h3 {
-        color: #1f3a85;
-        font-weight: 600;
-    }
+  #resume-content h2 {
+    color: #1f3a85;
+    margin-left: 2px;
+  }
 
-    .title-line-two {
-        font-weight: lighter;
-        margin-top: -10px;
-    }
+  h3 {
+    color: #1f3a85;
+    font-weight: 600;
+  }
 
-    .title-line-two-education {
-        color: black;
-    }
+  .title-line-two {
+    font-weight: lighter;
+    margin-top: -10px;
+  }
 
-    #resume-content-skills {
-        float: left;
-        font-weight: lighter;
-        margin-right: 90px;
-    }
+  .title-line-two-education {
+    color: black;
+  }
 
-    #resume-content-interests li {
-        display: inline-block;
-        font-weight: lighter;
-        height: 30px;
-        margin-bottom: 18px;
-        text-align: left;
-        width: 300px;
-    }
+  #resume-content-skills {
+    float: left;
+    font-weight: lighter;
+    margin-right: 90px;
+  }
 
-    .interests-icons {
-        margin-left: 35px;
-        margin-right: 10px;
-        vertical-align: middle;
-    }
+  #resume-content-interests li {
+    display: inline-block;
+    font-weight: lighter;
+    height: 30px;
+    margin-bottom: 18px;
+    text-align: left;
+    width: 300px;
+  }
 
-    hr {
-        margin-top: 28px;
-    }
+  .interests-icons {
+    margin-left: 35px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
 
-    .job-title {
-        font-size: 1.35em;
-    }
+  hr {
+    margin-top: 28px;
+  }
 
-    .skill-progress {
-        background-color: lightgrey;
-        border-radius: 20px;
-        height: 14px;
-        margin: 6px 0;
-        width: 300px;
-    }
-    .my-progress {
-        background-color: #1f3a85;
-        border-radius: 20px;
-        height: 14px;
-    }
+  .job-title {
+    font-size: 1.35em;
+  }
 
-    #web-progress {
-        width: 60%;
-    }
+  .skill-progress {
+    background-color: lightgrey;
+    border-radius: 20px;
+    height: 14px;
+    margin: 6px 0;
+    width: 300px;
+  }
+  .my-progress {
+    background-color: #1f3a85;
+    border-radius: 20px;
+    height: 14px;
+  }
 
-    #c-cpp-progress {
-        width: 55%;
-    }
+  #web-progress {
+    width: 60%;
+  }
 
-    #python-progress {
-        width: 90%;
-    }
+  #c-cpp-progress {
+    width: 55%;
+  }
 
-    #communication-progress {
-        width: 85%;
-    }
+  #python-progress {
+    width: 90%;
+  }
 
-    #teamwork-progress {
-        width: 85%;
-    }
+  #communication-progress {
+    width: 85%;
+  }
 
-    #free-money-link{
-        text-decoration: none;
-    }
+  #teamwork-progress {
+    width: 85%;
+  }
+
+  #free-money-link {
+    text-decoration: none;
+  }
+
+  .company {
+    color: white;
+    text-decoration: none;
+  }
 }

@@ -1,120 +1,130 @@
 /* for mobile phones */
 @media only screen and (max-width: 600px) {
-    body {
-        background-image: url("../images/mobile-background.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100%;
-        margin: 0;
-        overflow: scroll;
-    }
+  body {
+    background-image: url("../images/mobile-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    overflow: scroll;
+  }
 
-    #index-content {
-        color: #eaeaea;
-        display: block;
-        font-family: sans-serif;
-        left: 30%;
-        line-height: 25px;
-        margin: 0 auto;
-        text-align: center;
-        width: 80%;
-    }
+  #index-content {
+    color: #eaeaea;
+    display: block;
+    font-family: sans-serif;
+    left: 30%;
+    line-height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+  }
 
-    #index-content button {
-        border-radius: 20px;
-        font-size: 0.8em;
-        letter-spacing: 2px;
-        margin: 8px 0;
-        opacity: 0.9;
-        padding: 10px 50px;
-        text-transform: uppercase;
-        width: 80%;
-    }
+  #index-content button {
+    border-radius: 20px;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    margin: 8px 0;
+    opacity: 0.9;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    width: 80%;
+  }
 
-    #index-content button:hover,
-    #index-content button:active {
-        opacity: 1.0;
-    }
+  #index-content button:hover,
+  #index-content button:active {
+    opacity: 1;
+  }
 
-    #index-content button:focus {
-        outline: 0;
-    }
+  #index-content button:focus {
+    outline: 0;
+  }
 
-    #index-button-projects {
-        background-color: #1f3a85;
-        border: 1px solid #1f3a85;
-        color: #FFF;
-    }
+  #index-button-projects {
+    background-color: #1f3a85;
+    border: 1px solid #1f3a85;
+    color: #fff;
+  }
 
-    #index-button-resume {
-        background: rgba(0,0,0,0);
-        color: #FFF;
-    }
+  #index-button-resume {
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+  }
 
-    /* mobile footer */
-    #mobile-footer {
-        color: white;
-    }
+  /* mobile footer */
+  #mobile-footer {
+    color: white;
+  }
 
-    #footer-find-me {
-        border-bottom: 1px solid white;
-    }
+  #footer-find-me {
+    border-bottom: 1px solid white;
+  }
+
+  .company {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 /* for desktops */
 @media only screen and (min-width: 600px) {
-    body {
-        background-image: url("../images/san-francisco.jpg");
-        background-position-x: 23%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-        min-width: 1000px;
-        position: relative;
-    }
+  body {
+    background-image: url("../images/san-francisco.jpg");
+    background-position-x: 23%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-width: 1000px;
+    position: relative;
+  }
 
-    #index-content {
-        color: #eaeaea;
-        font-family: sans-serif;
-        left: 30%;
-        line-height: 25px;
-        position: absolute;
-        top: 16%;
-        width: 300px;
-    }
+  #index-content {
+    color: #eaeaea;
+    font-family: sans-serif;
+    left: 30%;
+    line-height: 25px;
+    position: absolute;
+    top: 16%;
+    width: 300px;
+  }
 
-    #index-content button {
-        border-radius: 20px;
-        font-size: 0.8em;
-        letter-spacing: 2px;
-        margin: 8px 12px 0 0;
-        opacity: 0.9;
-        padding: 10px 18px;
-        text-transform: uppercase;
-    }
+  #index-content button {
+    border-radius: 20px;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    margin: 8px 12px 0 0;
+    opacity: 0.9;
+    padding: 10px 18px;
+    text-transform: uppercase;
+  }
 
-    #index-content button:hover,
-    #index-content button:active {
-        opacity: 1.0;
-    }
+  #index-content button:hover,
+  #index-content button:active {
+    opacity: 1;
+  }
 
-    #index-content button:focus {
-        outline: 0;
-    }
+  #index-content button:focus {
+    outline: 0;
+  }
 
-    #index-button-projects {
-        background-color: #1f3a85;
-        border: 1px solid #1f3a85;
-        color: #FFF;
-        white-space: nowrap;
-    }
+  #index-button-projects {
+    background-color: #1f3a85;
+    border: 1px solid #1f3a85;
+    color: #fff;
+    white-space: nowrap;
+  }
 
-    #index-button-resume {
-        background: rgba(0,0,0,0);
-        color: #FFF;
-    }
+  #index-button-resume {
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+  }
 
-    #mobile-profile-image {
-        display: none;
-    }
+  #mobile-profile-image {
+    display: none;
+  }
+
+  .company {
+    color: white;
+    text-decoration: none;
+  }
 }
