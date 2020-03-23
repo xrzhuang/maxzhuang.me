@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Max Zhuang &hyphen; Projects</title>
-        <link rel="stylesheet" type="text/css" href="./css/projects.css" />
-        <link rel="stylesheet" type="text/css" href="./css/sidebar.css" />
-        <link rel="stylesheet" type="https://fonts.googleapis.com/css?family=Lato:700i">
-    </head>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max Zhuang &hyphen; Projects</title>
+    <link rel="stylesheet" type="text/css" href="./css/projects.css" />
+    <link rel="stylesheet" type="text/css" href="./css/sidebar.css" />
+    <link rel="stylesheet" type="https://fonts.googleapis.com/css?family=Lato:700i">
+</head>
+
 </html>
+
 <body>
     <!--Sidebar Component-->
     <div id="sidebar">
         <div id="sidebar-profile-info">
-            <a href="index.html"><img class="sidebar-content-center" id="sidebar-profile-image" src="./images/max.png" alt="profile image" width="115" height="115"/></a>
+            <a href="index.html"><img class="sidebar-content-center" id="sidebar-profile-image" src="./images/max.png"
+                    alt="profile image" width="115" height="115" /></a>
             <h1 class="sidebar-content-center" id="sidebar-name">Max Zhuang</h1>
-            <h2 class="sidebar-content-center" id="sidebar-tagline">Software Engineer <a class="company" href="https://www.clutter.com/">@Clutter</a></h2>
+            <h2 class="sidebar-content-center" id="sidebar-tagline">Software Engineer <a class="company"
+                    href="https://www.clutter.com/">@ Clutter</a></h2>
         </div>
         <div id="sidebar-contact-info">
             <h4 class="sidebar-content">Email</h4>
@@ -25,40 +30,48 @@
         </div>
         <h4 class="sidebar-content" id="sidebar-find-me">Find Me On</h4>
         <ul class="sidebar-content" id="sidebar-social-media">
-            <li><a class="social-media-icons" target="_blank" href="https://github.com/xrzhuang"><img src="./images/icon-github.png" alt="github" width="24" height="24"/></a></li>
-            <li><a class="social-media-icons" target="_blank" href="https://www.instagram.com/maxzhuang"><img src="./images/icon-instagram.png" alt="instagram" width="24" height="24"/></a></li>
-            <li><a class="social-media-icons" target="_blank" href="https://www.linkedin.com/in/max-zhuang-9398289b"><img src="./images/icon-linkedin.png" alt="linkedin" width="24" height="24"></a></li>
+            <li><a class="social-media-icons" target="_blank" href="https://github.com/xrzhuang"><img
+                        src="./images/icon-github.png" alt="github" width="24" height="24" /></a></li>
+            <li><a class="social-media-icons" target="_blank" href="https://www.instagram.com/maxzhuang"><img
+                        src="./images/icon-instagram.png" alt="instagram" width="24" height="24" /></a></li>
+            <li><a class="social-media-icons" target="_blank"
+                    href="https://www.linkedin.com/in/max-zhuang-9398289b"><img src="./images/icon-linkedin.png"
+                        alt="linkedin" width="24" height="24"></a></li>
         </ul>
     </div>
     <!--Project Content-->
-    <a href="index.html"><img id="mobile-profile-image" alt="profile picture" src="./images/max.png" width="115" height="115"/></a>
+    <a href="index.html"><img id="mobile-profile-image" alt="profile picture" src="./images/max.png" width="115"
+            height="115" /></a>
     <div id="project-content">
-    <div class="project-content-component">
-        <img src="./images/busking.png" id="icon-project" width="25" height="25"/>
-        <a href="https://busking.surge.sh/"> <h2 class="project-title">Busking</h2></a>
-        <ol>
-            <li>It was really fun</li>
-            <li>Marian was god mode css lord</li>
-            <li>All nighters were a great time</li>
-        </ol>
-    </div>
-    <div class="project-content-component">
-        <img src="./images/airwaves.ico" id="icon-project" width="25" height="25"/>
-        <a href="http://airwaves-sports.surge.sh/"> <h2 class="project-title">Airwaves Sports</h2></a>
-        <ol>
-            <li>It was really fun</li>
-            <li>Marian was god mode css lord</li>
-            <li>I love sports</li>
-        </ol>
-    </div>
-    <div class="project-content-component">
-        <img src="./images/busking.png" id="icon-project" width="25" height="25"/>
-        <h2 class="project-title">To do</h2>
-        <ol>
-            <li>It was really fun</li>
-            <li>Build something</li>
-            <li>All nighters were a great time</li>
-        </ol>
-    </div>
+        <div class="project-content-component">
+            <div class="project-content-component-header">
+                <img src="./images/busking.png" id="icon-project" width="25" height="25" />
+                <a href="https://busking.surge.sh/">
+                    <h2 class="project-title">Busking</h2>
+                </a>
+            </div>
+            <ol>
+                <li>Integrated various APIs from Facebook to authenticate users and login, Google find events on a map
+                    near users, Stripe to make payments and tip performers, and Amazon S3 to store images allowing
+                    performers to upload images of their events</li>
+                <li>Designed schema of Events and Profiles to allow users to create and view events, follow and rate
+                    other users, as well as rate events, view event ratings, and view event attendees.</li>
+                <li>Implemented frontend using React as well as styled application for responsiveness.</li>
+            </ol>
+
+            <hr />
+
+            <div class="project-content-component-header">
+                <img src="./images/airwaves.ico" id="icon-project" width="25" height="25" />
+                <a href="http://airwaves-sports.surge.sh/">
+                    <h2 class="project-title">Airwaves Sports</h2>
+                </a>
+            </div>
+            <ol>
+                <li>Implemented basic API to create, read, update, and delete blog posts from the blog</li>
+                <li>Used React and Redux to build frontend and manage state</li>
+                <li>Integrated Amazon S3 to store images and Passport.js for sign in and sign up of users</li>
+            </ol>
+        </div>
     </div>
 </body>

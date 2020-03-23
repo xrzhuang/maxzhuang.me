@@ -5,6 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
+    width:100%;
     margin: 0;
     overflow: scroll;
   }
@@ -40,7 +41,12 @@
     outline: 0;
   }
 
-  #index-button-projects,
+  #index-button-projects {
+    background-color: #1f3a85;
+    border: 1px solid #1f3a85;
+    color: #fff;
+  }
+
   #index-button-resume {
     background: rgba(0, 0, 0, 0);
     color: #fff;
@@ -71,6 +77,7 @@
     height: 100%;
     min-width: 1000px;
     position: relative;
+    overflow: hidden;
   }
 
   #index-content {
@@ -102,7 +109,13 @@
     outline: 0;
   }
 
-  #index-button-projects,
+  #index-button-projects {
+    background-color: #1f3a85;
+    border: 1px solid #1f3a85;
+    color: #fff;
+    white-space: nowrap;
+  }
+  
   #index-button-resume {
     background: rgba(0, 0, 0, 0);
     color: #fff;
